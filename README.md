@@ -1,5 +1,7 @@
 # Toyrobot
 
+This excercise requires Java-12 and Junit-4.
+
 com.toyrobot.service.ToyRobotService is the Main serivice class that implements the ToyRobot excercise methods. (place, faceLeft, faceRight, move and report )
 
 com.toyrobot.service.ToyRobotServiceTest is a Junit test class that asserts the acceptance criteria given in the requirement as well as checking some boundary conditions (method testPlaceToyRobotService_AcceptanceTests testing the acceptanceCriteria, method testPlaceToyRobotService_Exception_Conditions_Should_NOT_Alter_Current_State checks the boundary condition making sure any wrong positions are not impacting the current state.
