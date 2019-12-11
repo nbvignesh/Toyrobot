@@ -1,0 +1,3 @@
+module toyrobot {
+	requires junit;
+}
